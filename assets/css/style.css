@@ -3,9 +3,10 @@
 | OVERWRITE REVEAL THEME STYLE
 |--------------------------------------
 */
-.reveal {font-family: 'Josefin Sans', sans-serif; font-size: 30px}
+.reveal {font-family: 'Josefin Sans', sans-serif; font-size: 30px;}
 .reveal .controls .controls-arrow::after, .reveal .controls .controls-arrow::before {background: #A27440}
 .reveal ul {list-style-type: none;}
+.card-title {position: absolute; z-index: 1; top: 50%; left: 0; right: 0; color: #fff}
 .reveal h1 {color: #A27440; font-family: 'Josefin Sans', sans-serif; font-size: 80px}
 .reveal h2, .reveal h3 {color: #A27440; font-family: 'Josefin Sans', sans-serif; font-size: 40px}
 .reveal img {margin: 0}
@@ -14,9 +15,9 @@
 | CUSTOM STYLE
 |--------------------------------------
 */
-.bg-dark {background: #000;}
-.bg-light {background: #A27440}
-.bg-white {background: #fff}
+.bg-dark {background-color: #000;}
+.bg-light {background-color: #A27440}
+.bg-white {background-color: #fff}
 .pt-1 {padding-top: 10px}
 .pb-1 {padding-bottom: 10px}
 .pl-1 {padding-left: 10px}
@@ -49,8 +50,11 @@
 .text-right {text-align: right;}
 .text-left {text-align: left;}
 
+.card {background: url('../images/logo2Fichier_4_svg.svg') no-repeat center; background-size: contain; height: 700px; opacity: .1; position: relative; border: #000 outset 3px; border-radius: 10px;}
 .logo {width: 150px; height: 150px}
 .logo_img {width: 100%;}
+.outset-light {border: #A27440 outset 3px}
+.outset-dark {border: #000 outset 3px}
 .blocks {border-radius: 10px;}
 .block_img img {width: 100%; object-fit: cover;}
 .color-samples {border: 1px #fff solid; height: 20px; width: 20px;}
