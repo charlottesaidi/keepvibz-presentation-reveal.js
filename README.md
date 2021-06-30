@@ -12,5 +12,5 @@ Projet final de groupe - 3 collaborateurs
 - JS
 - [Reveal.js](https://revealjs.com/installation/)  
 
-
+[En ligne ici](https://charlottesaidi.github.io/keepvibz-presentation-reveal.js/)  
 
