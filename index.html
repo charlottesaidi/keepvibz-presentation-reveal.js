@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/theme/black.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/53fe39a7b7.js" crossorigin="anonymous"></script>
-    <title>KeepVibz | Projet</title>
+    <title>Présentation | KeepVibz</title>
 </head>
 <body>
     <div class="reveal">
@@ -204,6 +204,10 @@
                 <div class="card demo">
                 </div>
             </section>
+            <section>
+                Lien vers le site web : <a href="https://keepvibz.ovh" target="_blank">KeepVibz</a>
+                <p>Hébergement : <a href="https://www.ovh.com/fr/" target="_blank">OVH</a></p>
+            </section>
 <!-- LE SITE -->
 <!-- DIFFICULTES -->
             <section>
@@ -304,30 +308,96 @@
             </section>
 <!-- SOURCES -->
             <section>
-                <div class="row left">
-                    <h3>Solution</h3>
-                </div>
-                <div class="row between">
-                    <div class="w-half pb-2">
-                        <div class="blocks bg-light outset-light pb-2 pt-2">
-                            <div>
-                                <img class="diff_img" src="assets/images/source_render_pb.png" alt="" data-target="modal7">
-                                <!-- The Modal -->
-                                <div id="modal7" class="modal">
-                                    <!-- The Close Button -->
-                                    <span class="close">&times;</span>
-                                    <!-- Modal Content (The Image) -->
-                                    <img class="modal-content">
+                <section>
+                    <div class="row left">
+                        <h3>Origine du problème</h3>
+                    </div>
+                    <div class="row between align-center">
+                        <div class="w-half pb-2 pt-2">
+                            <p><a href="https://symfony.com/doc/current/templates.html#embedding-controllers">Documentation Symfony</a></p>
+                            <p>Origine : la fonction render(controller()). Découverte en faisant divers tests, comprenant la suppression de cette fonction</p>
+                            <p>Problème : la fonction entraine des sous-requêtes qui impactent la performance en environnement développement</p>
+                        </div>
+                        <div class="w-half pb-2">
+                            <div class="blocks bg-light outset-light pb-2 pt-2">
+                                <div>
+                                    <img class="diff_img" src="assets/images/symfony_render.png" alt="" data-target="modal7">
+                                    <!-- The Modal -->
+                                    <div id="modal7" class="modal">
+                                        <!-- The Close Button -->
+                                        <span class="close">&times;</span>
+                                        <!-- Modal Content (The Image) -->
+                                        <img class="modal-content">
+                                    </div>
+                                </div>
+                                <div>
+                                    <img class="diff_img" src="assets/images/symfony_render_warning.png" alt="" data-target="modal8">
+                                    <!-- The Modal -->
+                                    <div id="modal8" class="modal">
+                                        <!-- The Close Button -->
+                                        <span class="close">&times;</span>
+                                        <!-- Modal Content (The Image) -->
+                                        <img class="modal-content">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="w-half pb-2 pt-2">
-                        <p><a href="https://stackoverflow.com/questions/42242873/a-substitute-for-rendercontroller">StackOverflow : "A substitute for render(controller())"</a></p>
-                        <p>Problème posé : un substitut à la fonction Render(controller()) pour un accès à une même donnée sur toutes ses pages</p>
-                        <p>Ce que propose la réponse sélectionnée : créer un service retournant la donnée puis stocker ce service dans une variable Twig globale.</p>
+                </section>
+                <section>
+                    <div class="row left">
+                        <h3>Solution</h3>
                     </div>
+                    <div class="row between align-center">
+                        <div class="w-half pb-2">
+                            <div class="blocks bg-light outset-light pb-2 pt-2">
+                                <div>
+                                    <img class="diff_img" src="assets/images/source_render_pb.png" alt="" data-target="modal9">
+                                    <!-- The Modal -->
+                                    <div id="modal9" class="modal">
+                                        <!-- The Close Button -->
+                                        <span class="close">&times;</span>
+                                        <!-- Modal Content (The Image) -->
+                                        <img class="modal-content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="w-half pb-2 pt-2">
+                            <p><a href="https://stackoverflow.com/questions/42242873/a-substitute-for-rendercontroller">StackOverflow : "A substitute for render(controller())"</a></p>
+                            <p>Problème posé : un substitut à la fonction Render(controller()) pour un accès à une même donnée sur toutes ses pages</p>
+                            <p>Ce que propose la réponse sélectionnée : créer un service retournant la donnée puis stocker ce service dans une variable Twig globale.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+<!-- SOURCES -->
+            <section>
+                <h2 class="card-title">Conclusion</h2>
+                <div class="card demo">
+                </div>
+            </section>
+<!-- SOURCES -->
+            <section>
+                <div class="pb-2 col align-end">
+                    <div class="row right">
+                        <h3>Devenir du site</h3>
+                    </div>
+                    <ul class="fa-ul">
+                        <li> <span class="fa-li"><i class="far fa-play-circle"></i></span>Un projet pédagogique</li>
+                        <li> <span class="fa-li"><i class="far fa-play-circle"></i></span>Un prototype</li>
+                    </ul>
+                </div>
+                
+                <div class="pb-2 col align-start">
+                    <div class="row left">
+                        <h3>Ce qu'il reste à faire</h3>
+                    </div>
+                    <ul class="fa-ul">
+                        <li> <span class="fa-li"><i class="far fa-play-circle"></i></span>Une messagerie interne</li>
+                        <li> <span class="fa-li"><i class="far fa-play-circle"></i></span>Un beatstore</li>
+                    </ul>
                 </div>
             </section>
         </div>
