@@ -60,9 +60,6 @@
 .color-samples {border: 1px #fff solid; height: 20px; width: 20px;}
 .reveal .colors p span.pl-1 {font-size: 20px; text-align: left;}
 .between {margin-left: -2%;}
-<<<<<<< HEAD
-.between .blocks {margin-left: 2%;}
-=======
 .between .blocks {margin-left: 2%;}
 /*
 |--------------------------------------
@@ -86,4 +83,3 @@
 @media only screen and (max-width: 700px){
   .modal-content {width: 100%;}
 }
->>>>>>> 9d9ef83542db647b5c8932760551724f3babbe25
