@@ -60,4 +60,30 @@
 .color-samples {border: 1px #fff solid; height: 20px; width: 20px;}
 .reveal .colors p span.pl-1 {font-size: 20px; text-align: left;}
 .between {margin-left: -2%;}
+<<<<<<< HEAD
 .between .blocks {margin-left: 2%;}
+=======
+.between .blocks {margin-left: 2%;}
+/*
+|--------------------------------------
+| MODAL IMAGES
+|--------------------------------------
+*/
+.diff_img {transition: 0.3s; cursor: pointer}
+.diff_img:hover {opacity: 0.7;}
+/* The Modal (background) */
+.modal {flex-direction: column; justify-content: center; align-items: center; display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.9);}
+/* Modal Content (Image) */
+.modal-content { margin: auto; display: block; width: 80%; max-width: 700px;}
+/* Add Animation - Zoom in the Modal */
+.modal-content { animation-name: zoom; animation-duration: 0.6s;}
+@keyframes zoom { from {transform:scale(0)} to {transform:scale(1)}}
+/* The Close Button */
+.close { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; transition: 0.3s;}
+.close:hover,
+.close:focus {color: #bbb; text-decoration: none; cursor: pointer;}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {width: 100%;}
+}
+>>>>>>> 9d9ef83542db647b5c8932760551724f3babbe25
